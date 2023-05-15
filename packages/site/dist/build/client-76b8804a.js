@@ -1,0 +1,2 @@
+function t(t,...e){return t.reduce((t,s,n)=>`${t}${s}${n in e?e[n]:""}`,"")}const e=function(t,{headers:e,...s}={}){const n={method:"POST",headers:{"Content-Type":"application/json",...e},...s};return{request:async function(e,s){const a=JSON.stringify({query:e,variables:s}),r=await fetch(t,{...n,body:a});return r.ok?await r.json():{errors:[{message:`${r.status} - "${r.statusText}"`}]}}}}("https://api-kurse.miftahul-ilm.net/graphql");export{e as c,t as g};
+//# sourceMappingURL=client-76b8804a.js.map

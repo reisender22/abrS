@@ -1,0 +1,1 @@
+{"version":3,"file":"currency-0efccd32.js","sources":["../../src/utils/currency.js"],"sourcesContent":["const formatter = new Intl.NumberFormat(\"de-DE\", {\n  style: \"currency\",\n  currency: \"EUR\",\n});\n\nexport { formatter };\n"],"names":["formatter","Intl","NumberFormat","style","currency"],"mappings":"AAAK,MAACA,EAAY,IAAIC,KAAKC,aAAa,QAAS,CAC/CC,MAAO,WACPC,SAAU"}
